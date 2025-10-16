@@ -118,6 +118,7 @@
     border: none;
     padding: 12px;
     color: white;
+    cursor: pointer;
 }
 
 #btn-contact {
@@ -128,6 +129,7 @@
     color: white;
     border-radius: 25px;
     width: 100px;
+    cursor: pointer;
 
 
 }
@@ -221,7 +223,7 @@
     color: #fff;
     width: 40%;
     height: 40px;
-    
+    cursor: pointer;
     border-radius: 30px;
     
     
@@ -248,12 +250,13 @@
 .about-section {
     background-color: #EBF3F5;
     height: 120vh;
-    border: #000 2px solid;
+ /*   border: #000 2px solid; */
 }
 
 .about-container {
     width: 90%;
     margin: auto;
+    
 }
 .about-infos {
     display: flex;
@@ -262,7 +265,7 @@
 
 .about-left{
     width: 60%;
-    border: #FF6F61 2px solid;
+  /*  border: #FF6F61 2px solid; */
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -309,6 +312,7 @@
     border-radius: 3px;
     border: none;
     width: 180px;
+    cursor: pointer;
 }
 
 .watch-vid-btn button{
@@ -318,6 +322,7 @@
     outline: none;
     border: none;
     font-weight: bold;
+    cursor: pointer;
 }
 .watch-vid-btn {
     color: #0AC05E;
@@ -327,5 +332,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
+
+.about-right {
+    width: 39%;
+    border: #000 2px solid;
+}
+
+
+
+
+
+
+.stats-section {
+    width: 100%;
+    background-color: #fff;
+    background-color: ;
+}
+
+
+
+
+
+
+.stats-section .about-container {
+    height: 29vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats-section h1 {
+    color: #3498DB;
+    font-size: 50px;
+}
+
+
+
+
+
+
 
