@@ -111,7 +111,7 @@
     align-items: center;
 }
 
-#btn-appointment {
+.btn-appointment {
     background-color: #FF6F61;
     border-radius: 30px;
     outline: none;
@@ -119,6 +119,7 @@
     padding: 12px;
     color: white;
     cursor: pointer;
+    height: fit-content;
 }
 
 #btn-contact {
@@ -382,7 +383,7 @@
 
 
 .services-page {
-    height: 150vh;
+    height: 200vh;
     width: 96%;
     margin: auto;
     background-color: #F4F8FB;
@@ -415,7 +416,7 @@
 
 .card {
     background-color: #fff;
-    width: 27%;
+    width: 30%;
     height: fit-content;
     border-radius: 19px;
     
@@ -448,3 +449,21 @@
     width: 120px;
     
 }
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
