@@ -286,11 +286,13 @@
     margin-top: 90px;
 }
 
-.about-left h2 {
-    color: #3498DB;
+.titles {
+     color: #3498DB;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 25px;
 }
+
+
 
 .about-left p {
     font-weight: 500;
@@ -348,7 +350,8 @@
 .stats-section {
     width: 100%;
     background-color: #fff;
-    background-color: ;
+    background-color: white;
+   /* border: #000 2px solid;  */
 }
 
 
@@ -374,3 +377,74 @@
 
 
 
+
+
+
+
+.services-page {
+    height: 150vh;
+    width: 96%;
+    margin: auto;
+    background-color: #F4F8FB;
+    border-radius: 12px;
+}
+
+.title-btns button{
+    color :#fff ;
+    background-color: transparent;
+    border: none;
+
+}
+
+.title-btns {
+    width: 120px;
+    background-color: #5EE088 ;
+    border: #2ECC71 3px solid;
+
+    padding: 12px;
+    text-align: center;
+    border-radius: 17px 17px 0 17px;
+}
+
+
+.service-container {
+    width: 92%;
+    margin: auto;
+}
+
+
+.card {
+    background-color: #fff;
+    width: 27%;
+    height: fit-content;
+    border-radius: 19px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0 20px 20px ;
+}
+.card p {
+    color: #5B5B5B;
+}
+
+.card h3 {
+    color: #2677BC;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.card button {
+    color: #FF6F61;
+    background-color: transparent;
+    border: none;
+}
+
+.card-btn {
+    border: #FF6F61 2px solid;
+    text-align: center;
+    border-radius: 17px;
+    padding: 10px 0 10px 0;
+    width: 120px;
+    
+}
