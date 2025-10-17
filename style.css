@@ -581,7 +581,7 @@
 
 
 .pricing-section {
-    height: 120vh;
+    height: fit-content;
 }
 
 
@@ -705,4 +705,51 @@
     justify-content: space-between;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.booking-section {
+    
+    background: url("/images/Booking-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.booking-container {
+    width: 90%;
+    margin: auto ;
+    background-color: white;
+    height: 85%;
+    border-radius: 20px ;
+    
+}
+
 
