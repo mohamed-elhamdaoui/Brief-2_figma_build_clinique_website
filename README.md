@@ -1,6 +1,6 @@
 # NLCLINIQUE Website
 
-This project is a modern and responsive website for a medical clinic, created from a Figma design.
+This project is a modern website for a medical clinic, created from a Figma design.
 
 ## 🌐 Live Demo
 [Visit Website](https://brief-2-figma-build-clinique-website-ms9qfbbfs.vercel.app/)
