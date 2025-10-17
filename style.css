@@ -12,7 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150vh;
+    height: fit-content;
 
 }
 
@@ -470,6 +470,7 @@
 .doctors-section {
     height: fit-content;
     padding-bottom: 50px;
+ /*   border: yellowgreen 3px solid;  */
 }
 
 
@@ -561,3 +562,137 @@
     height: fit-content;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing-section {
+    height: 120vh;
+}
+
+
+.pricing-card {
+    height: fit-content;
+    padding-bottom: 20px;
+    background-color: #F5F8FA;
+    width: 30%;
+    border-radius: 12px;
+    border: #E1E1E1 2px solid;
+
+}
+
+.pricing-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pricing-infos {
+    padding: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.pricing-infos h2 {
+    color: #2677BC;
+}
+
+.pricing-infos  p {
+    color: #5B5B5B;
+}
+.pricing-infos h1 {
+    color: #3498DB;
+    font-size: 40px ;
+}
+
+.pricing-features h4{
+    color: #3498DB;
+}
+
+.pricing-features ul{
+    list-style: none;
+}
+
+.pricing-list{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    
+}
+
+
+
+.pricing-features{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
+.checkpoint-icon {
+    border-radius: 50%; 
+    width: 15px; 
+    height: 15px; 
+    overflow: hidden;
+}
+
+.checkpoint-icon p {
+    position: relative; top: -3.5px; left: -4px;
+}
+
+
+.feature-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.feature-btns select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 12px;
+    height: fit-content;
+    border: #FF6F61 2px solid;
+    border-radius: 22px;
+    width: 85%;
+    color: #FF6F61;
+    text-align: center;
+    
+}
+
+.feature-btns button {
+    border: none;
+    outline: none;
+    background-color: #FF6F61;
+    padding: 12px;
+    height: fit-content;
+    border: #FF6F61 2px solid;
+    border-radius: 22px;
+    width: 85%;
+    color: white;
+    text-align: center;
+    
+}
