@@ -696,3 +696,13 @@
     text-align: center;
     
 }
+
+
+
+.prices-doc-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
