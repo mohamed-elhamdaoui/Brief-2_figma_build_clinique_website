@@ -24,9 +24,12 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
+    background: url("/images/background_img.png");
+   
+    position: fixed; 
+   width: 100%;
 
 
 }
