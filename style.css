@@ -738,18 +738,82 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat ;
-    height: 100vh;
+    height: 160vh;
     display: flex;
     align-items: center;
 }
 
 .booking-container {
-    width: 90%;
+    width: 85%;
     margin: auto ;
     background-color: white;
-    height: 85%;
+    height: fit-content;
     border-radius: 20px ;
+    padding-bottom: 30px;
     
 }
 
+
+.booking-form {
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+.booking-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0 20px 0;
+    border: salmon 3px solid;
+}
+
+
+.book-unity {
+    
+    width: 48%;
+    padding: 20px 0 20px 0;
+    
+}
+
+.book-unity input {
+    border: none;
+    border: #E1E1E1 3px solid;
+    border-radius: 16px;
+    padding: 14px;
+    width: 100%;
+    
+}
+
+.book-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book-description textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 100px ;
+    border: #2677BC 2px solid;
+    border-radius: 10px;
+}
+
+.book-btn {
+    border: tomato 2px solid;
+    background-color: #FF6F61;
+    text-align: center;
+    color: #fff;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+.book-btn  button{
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    background-color: transparent;
+    color: #fff;
+}
 
